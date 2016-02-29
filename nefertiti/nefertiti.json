@@ -1,0 +1,59 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/2/context.json",
+    "http://files.universalviewer.io/ld/ixif/0/context.json"
+  ],
+  "@id": "http://files.universalviewer.io/manifests/demo/nefertiti.json",
+  "@type": "sc:Manifest",
+  "label": "Bust of Queen Nefertiti",
+  "metadata": [
+    {
+      "label": "Material",
+      "value": "limestone and stucco"
+    },
+    {
+      "label": "Size",
+      "value": "19 inches high"
+    },
+    {
+      "label": "Created",
+      "value": "1345 BC: by Thutmose, ancient Egypt"
+    },
+    {
+      "label": "Discovered",
+      "value": "1912: Amarna, Egypt"
+    },
+    {
+      "label": "Present",
+      "value": "Neues Museum, Berlin"
+    },
+    {
+      "label": "Location",
+      "value": "Germany"
+    },
+    {
+      "label": "Credit",
+      "value": "http://nefertitihack.alloversky.com/"
+    },
+    {
+      "label": "Source file",
+      "value": "https://ipfs.io/ipfs/QmY22Pv2h1PpjoAVXUvrBQun4cWyeG1VBuU5WHKgduDGXF"
+    }
+  ],
+  "mediaSequences": [
+    {
+      "@id": "http://universalviewer.io/xsequence/s0",
+      "@type": "ixif:MediaSequence",
+      "label": "XSequence 0",
+      "elements": [
+        {
+          "@id": "http://files.universalviewer.io/manifests/demo/nefertiti/nefertiti.json",
+          "@type": "dctypes:PhysicalObject",
+          "format": "application/vnd.threejs+json",
+          "label": "Bust of Queen Nefertiti",
+          "thumbnail": "http://files.universalviewer.io/manifests/demo/nefertiti/thumb.jpg"
+        }
+      ]
+    }
+  ]
+}
