@@ -47,11 +47,11 @@
       "label": "XSequence 0",
       "elements": [
         {
-          "@id": "http://files.universalviewer.io/manifests/demo/nefertiti/nefertiti.json",
+          "@id": "https://ipfs.io/ipfs/QmU54Pq8is95Z5uPwJi2kPNQtbdyTQHXJV9dry9vMkJJYm",
           "@type": "dctypes:PhysicalObject",
           "format": "application/vnd.threejs+json",
           "label": "Bust of Queen Nefertiti",
-          "thumbnail": "http://files.universalviewer.io/manifests/demo/nefertiti/thumb.jpg"
+          "thumbnail": "https://ipfs.io/ipfs/Qmbv2qFQDHiLBryL1dp5hoNP2sBab47P3mwJPKCcjvvqNL"
         }
       ]
     }
