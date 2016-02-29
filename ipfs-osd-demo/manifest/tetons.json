@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://universalviewer.io/manifests/demo/tetons",
+  "@type": "sc:Manifest",
+  "label": "Tetons",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Tetons"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://universalviewer.io/sequences/demo/tetons/0",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://universalviewer.io/canvases/demo/tetons/0",
+          "@type": "sc:Canvas",
+          "height": 3000,
+          "width": 4000,
+          "images": [
+            {
+              "@id": "http://universalviewer.io/annotations/demo/tetons",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ipfs.io/ipfs/QmPmDy9uKFBkK9EceTeZpw3aSM9HoQdBKXWZrcibQvcr4S",
+                "@type": "dcTypes:Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 4000,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ipfs.io/ipfs/QmV75U6uJiqRGfuXH8Etn6a9EYtK65fLUtWHTJsGRmjNcm",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://universalviewer.io/canvases/demo/tetons/0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
