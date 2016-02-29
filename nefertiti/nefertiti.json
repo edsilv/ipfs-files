@@ -33,11 +33,11 @@
     },
     {
       "label": "Credit",
-      "value": "http://nefertitihack.alloversky.com/"
+      "value": "<a href='http://nefertitihack.alloversky.com'>http://nefertitihack.alloversky.com</a>"
     },
     {
       "label": "Source file",
-      "value": "https://ipfs.io/ipfs/QmY22Pv2h1PpjoAVXUvrBQun4cWyeG1VBuU5WHKgduDGXF"
+      "value": "<a href='https://ipfs.io/ipfs/QmY22Pv2h1PpjoAVXUvrBQun4cWyeG1VBuU5WHKgduDGXF'>https://ipfs.io/ipfs/QmY22Pv2h1PpjoAVXUvrBQun4cWyeG1VBuU5WHKgduDGXF</a>"
     }
   ],
   "mediaSequences": [
