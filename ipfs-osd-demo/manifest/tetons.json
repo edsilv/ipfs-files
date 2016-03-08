@@ -32,7 +32,7 @@
                 "width": 4000,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://ipfs.io/ipfs/QmccDvQ1W7wMY4zm5XHCEAFnjHXRGzdFJD6DRu4yGjjYLS",
+                  "@id": "https://ipfs.io/ipfs/QmWsGPTKFWFRxMqvT2ic8LQxTiomwLP81gSybWmiYtStAD",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
