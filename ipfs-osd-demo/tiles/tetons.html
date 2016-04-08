@@ -12,11 +12,11 @@
 //<![CDATA[
         function initOpenSeadragon() {
           OpenSeadragon({
-  id: "openseadragon1",
-  minZoomImageRatio: 1,
-  prefixUrl: "osd/images/",
-  tileSources: "https://ipfs.io/ipfs/QmaLgi5fggn6D5QaYt5FusFXtF63nJQYE7tYovjuSSFRf2",
-  crossOriginPolicy: false});
+            id: "openseadragon1",
+            minZoomImageRatio: 1,
+            prefixUrl: "osd/images/",
+            tileSources: "https://ipfs.io/ipfs/QmaLgi5fggn6D5QaYt5FusFXtF63nJQYE7tYovjuSSFRf2",
+            crossOriginPolicy: false});
         }
         window.onload = initOpenSeadragon;
         document.addEventListener("page:load", initOpenSeadragon); // Initialize when using turbolinks
